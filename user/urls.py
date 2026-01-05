@@ -6,3 +6,5 @@ urlpatterns = [
     path("login/", UserLoginView.as_view(), name="user-login"),
     path("me/", UserMeView.as_view(), name="user-me"),
 ]
+
+app_name = "user"
