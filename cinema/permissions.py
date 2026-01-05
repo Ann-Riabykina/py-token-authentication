@@ -9,3 +9,5 @@ class IsAdminOrIfAuthenticatedReadOnly(permissions.BasePermission):
                 and request.user.is_authenticated):
             return True
         return False
+
+
